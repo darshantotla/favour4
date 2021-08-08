@@ -1,0 +1,62 @@
+body{
+text-align: center;
+background-color: lime;
+background-repeat: no-repeat;
+}
+h1{
+text-shadow: 2px 2px cyan;
+font-size: 20px;
+}
+#about{
+text-align: center;
+padding: 20px;
+font-size: 18px;
+}
+.menu{
+list-style: none;
+font-family: cursive;
+float: right;
+top: 10px;
+right: 30px;
+cursor: pointer;
+color: black;
+}
+.link{
+float: left;
+color: black;
+padding-top: 5px;
+padding-left: 9px;
+padding-right: 9px;
+padding-bottom: 5px;
+}
+.link:hover{
+background-color: white;
+font-size: 34px;
+font-family: cursive;
+color: black;
+border-style: dashed;
+border-color: yellow;
+border-width: 15px;
+}
+#about{
+background-color: cyan;
+}
+#abouthobby{
+background-color: lime;
+}
+#players{
+background-color: yellow;
+}
+#work{
+background-color: orange;
+}
+img{
+transition: transform .2s;
+}
+
+img:hover{
+transform: scale(0.5);
+}
+#inspire{
+background-color: lightpink;
+}
